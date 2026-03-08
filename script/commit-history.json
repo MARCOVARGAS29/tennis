@@ -209,12 +209,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a0568e47d2b9a01775e917a5e9526d9bf4cf0473",
     "author": "Marco Vargas",
     "commit": {
       "date": "2026-03-08T17:41:15.000Z",
       "message": "feat: implementar lógica de Ventaja para ambos jugadores",
-      "url": "https://github.com/MARCOVARGAS29/tennis/commit/HEAD"
+      "url": "https://github.com/MARCOVARGAS29/tennis/commit/a0568e47d2b9a01775e917a5e9526d9bf4cf0473"
     },
     "stats": {
       "total": 21,
@@ -224,6 +224,25 @@
     },
     "coverage": 92.31,
     "test_count": 6,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Marco Vargas",
+    "commit": {
+      "date": "2026-03-08T17:48:39.000Z",
+      "message": "refactor: extraer lógica a métodos privados para mejorar legibilidad",
+      "url": "https://github.com/MARCOVARGAS29/tennis/commit/HEAD"
+    },
+    "stats": {
+      "total": 64,
+      "additions": 45,
+      "deletions": 19,
+      "date": "2026-03-08"
+    },
+    "coverage": 100,
+    "test_count": 7,
     "failed_tests": 0,
     "conclusion": "success"
   }

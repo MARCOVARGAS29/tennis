@@ -46,4 +46,16 @@ describe("Tennis Scorer", () => {
     tennis.player1Scores();
     expect(tennis.score()).toEqual("Advantage Player 1");
   });
+  it("debería mostrar Game for Player 1 cuando el jugador 1 gana", () => {
+    let tennis = new Tennis();
+    // Llegamos a ventaja
+    for (let i = 0; i < 3; i++) {
+        tennis.player1Scores();
+        tennis.player2Scores();
+    }
+    // Jugador 1 anota dos veces seguidas para ganar
+    tennis.player1Scores();
+    tennis.player1Scores();
+    expect(tennis.score()).toEqual("Game for Player 1");
+  });
 });
