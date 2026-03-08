@@ -6,6 +6,12 @@ class Tennis {
 
   score() {
     const scores = ["Love", "15", "30", "40"];
+    
+    // Nueva regla para el Deuce
+    if (this.player1Points >= 3 && this.player2Points === this.player1Points) {
+      return "Deuce";
+    }
+
     return `${scores[this.player1Points]} - ${scores[this.player2Points]}`;
   }
 

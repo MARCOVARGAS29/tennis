@@ -25,4 +25,14 @@ describe("Tennis Scorer", () => {
     tennis.player2Scores();
     expect(tennis.score()).toEqual("15 - 15");
   });
+  it("debería mostrar Deuce cuando ambos tienen 3 puntos", () => {
+    let tennis = new Tennis();
+    tennis.player1Scores();
+    tennis.player1Scores();
+    tennis.player1Scores(); // 40
+    tennis.player2Scores();
+    tennis.player2Scores();
+    tennis.player2Scores(); // 40
+    expect(tennis.score()).toEqual("Deuce");
+  });
 });

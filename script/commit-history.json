@@ -171,12 +171,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2ca72e6efd0057e861007cfa537c6b4e909eddcb",
     "author": "Marco Vargas",
     "commit": {
       "date": "2026-03-08T17:29:18.000Z",
       "message": "refactor: simplificar lógica de puntuación usando arreglo de mapeo",
-      "url": "https://github.com/MARCOVARGAS29/tennis/commit/HEAD"
+      "url": "https://github.com/MARCOVARGAS29/tennis/commit/2ca72e6efd0057e861007cfa537c6b4e909eddcb"
     },
     "stats": {
       "total": 6,
@@ -186,6 +186,25 @@
     },
     "coverage": 100,
     "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Marco Vargas",
+    "commit": {
+      "date": "2026-03-08T17:36:30.000Z",
+      "message": "feat: implementar lógica de Deuce",
+      "url": "https://github.com/MARCOVARGAS29/tennis/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 16,
+      "deletions": 0,
+      "date": "2026-03-08"
+    },
+    "coverage": 100,
+    "test_count": 5,
     "failed_tests": 0,
     "conclusion": "success"
   }
