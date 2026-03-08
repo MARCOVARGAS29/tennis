@@ -340,9 +340,31 @@
     "testId": 10
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0a753b06537ee35b8a769875a6558b840d6a4d34",
     "commitName": "feat: implementar lógica de Deuce",
     "commitTimestamp": 1772991391491,
     "testId": 10
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 1,
+    "numTotalTests": 6,
+    "timestamp": 1772991455015,
+    "success": false,
+    "testId": 11
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 0,
+    "numTotalTests": 6,
+    "timestamp": 1772991621319,
+    "success": true,
+    "testId": 11
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar lógica de Ventaja para ambos jugadores",
+    "commitTimestamp": 1772991676266,
+    "testId": 11
   }
 ]

@@ -35,4 +35,15 @@ describe("Tennis Scorer", () => {
     tennis.player2Scores(); // 40
     expect(tennis.score()).toEqual("Deuce");
   });
+  it("debería mostrar Advantage Player 1 cuando el jugador 1 tiene ventaja", () => {
+    let tennis = new Tennis();
+    // Ambos llegan a 40 (3 puntos)
+    for (let i = 0; i < 3; i++) {
+        tennis.player1Scores();
+        tennis.player2Scores();
+    }
+    // Jugador 1 anota para obtener ventaja
+    tennis.player1Scores();
+    expect(tennis.score()).toEqual("Advantage Player 1");
+  });
 });
