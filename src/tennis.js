@@ -1,24 +1,21 @@
 class Tennis {
-    constructor() {
-        this.player1Points = 0;
-    }
-    score(){
-        let player1Score = "Love";
-        if(this.player1Points == 1){
-            player1Score= "15"
-        }
-        if(this.player1Points == 2){
-            player1Score= "30"
-        }
-        if(this.player1Points == 3){
-            player1Score= "40"
-        }
-        return player1Score+" - Love"
-    }
+  constructor() {
+    this.player1Points = 0;
+    this.player2Points = 0;
+  }
 
-    player1Scores(){
-        this.player1Points++;
-    }
+  score() {
+    const scores = ["Love", "15", "30", "40"];
+    return `${scores[this.player1Points]} - ${scores[this.player2Points]}`;
+  }
+
+  player1Scores() {
+    this.player1Points++;
+  }
+
+  player2Scores() {
+    this.player2Points++;
+  }
 }
 
-export default Tennis;
+module.exports = Tennis;

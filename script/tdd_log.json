@@ -234,9 +234,71 @@
     "testId": 6
   },
   {
-    "commitId": "HEAD",
+    "commitId": "eafb634edabc30e3087647172a71cab40ccccfd6",
     "commitName": "doc: documentacion sobre el diseno",
     "commitTimestamp": 1772116727708,
     "testId": 7
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 0,
+    "numTotalTests": 5,
+    "timestamp": 1772988809413,
+    "success": false,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 4,
+    "numTotalTests": 9,
+    "timestamp": 1772989565728,
+    "success": false,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 1,
+    "failedTests": 4,
+    "numTotalTests": 5,
+    "timestamp": 1772989814211,
+    "success": false,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 1,
+    "failedTests": 4,
+    "numTotalTests": 5,
+    "timestamp": 1772989897733,
+    "success": false,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 0,
+    "failedTests": 4,
+    "numTotalTests": 4,
+    "timestamp": 1772989931497,
+    "success": false,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 0,
+    "failedTests": 4,
+    "numTotalTests": 4,
+    "timestamp": 1772990084625,
+    "success": false,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 0,
+    "numTotalTests": 3,
+    "timestamp": 1772990178430,
+    "success": true,
+    "testId": 8
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar lógica básica de puntuación para jugador 1",
+    "commitTimestamp": 1772990416152,
+    "testId": 8
   }
 ]

@@ -133,12 +133,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "eafb634edabc30e3087647172a71cab40ccccfd6",
     "author": "israel antezana",
     "commit": {
       "date": "2026-02-26T14:38:47.000Z",
       "message": "doc: documentacion sobre el diseno",
-      "url": "https://github.com/israelantezana/2026-1-TennisTDD/commit/HEAD"
+      "url": "https://github.com/israelantezana/2026-1-TennisTDD/commit/eafb634edabc30e3087647172a71cab40ccccfd6"
     },
     "stats": {
       "total": 8,
@@ -148,6 +148,25 @@
     },
     "coverage": 100,
     "test_count": 5,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Marco Vargas",
+    "commit": {
+      "date": "2026-03-08T17:20:14.000Z",
+      "message": "feat: implementar lógica básica de puntuación para jugador 1",
+      "url": "https://github.com/MARCOVARGAS29/tennis/commit/HEAD"
+    },
+    "stats": {
+      "total": 114,
+      "additions": 32,
+      "deletions": 82,
+      "date": "2026-03-08"
+    },
+    "coverage": 85.71,
+    "test_count": 3,
     "failed_tests": 0,
     "conclusion": "success"
   }
