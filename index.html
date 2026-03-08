@@ -1,19 +1,35 @@
 <!DOCTYPE html>
-<html xml:lang="es">
-  <head>
-    <title>Sumador</title>
-  </head>
-  <body>
-    <h1>Sumador</h1>
-    <form id="sumar-form">
-      <label for="primer-numero">Primer número:</label>
-      <input type="number" id="primer-numero" />
-      <label for="segundo-numero">Segundo número:</label>
-      <input type="number" id="segundo-numero" />
-      <input type="submit" value="Sumar" id="sumar-button" />
-    </form>
-    <div id="resultado-div"></div>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tenis TDD Game</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; margin-top: 50px; }
+        #score-board { font-size: 3em; margin: 20px; color: #333; }
+        button { padding: 15px 30px; font-size: 1.2em; cursor: pointer; }
+    </style>
+</head>
+<body>
 
-    <script type="module" src="./src/presenter.js"></script>
-  </body>
+    <h1>Marcador de Tenis</h1>
+    <div id="score-board">Love - Love</div>
+
+    <button onclick="updateScore('p1')">Punto Jugador 1</button>
+    <button onclick="updateScore('p2')">Punto Jugador 2</button>
+
+    <script src="src/tennis.js"></script>
+    <script>
+        // Inicializamos el juego
+        const game = new Tennis();
+        const display = document.getElementById('score-board');
+
+        function updateScore(player) {
+            if (player === 'p1') game.player1Scores();
+            else game.player2Scores();
+            
+            // Actualizamos la pantalla
+            display.innerText = game.score();
+        }
+    </script>
+</body>
 </html>

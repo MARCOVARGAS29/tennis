@@ -228,12 +228,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "0687eeee9170350149621ad1a1d9bf96c420adde",
     "author": "Marco Vargas",
     "commit": {
       "date": "2026-03-08T17:48:39.000Z",
       "message": "refactor: extraer lógica a métodos privados para mejorar legibilidad",
-      "url": "https://github.com/MARCOVARGAS29/tennis/commit/HEAD"
+      "url": "https://github.com/MARCOVARGAS29/tennis/commit/0687eeee9170350149621ad1a1d9bf96c420adde"
     },
     "stats": {
       "total": 64,
@@ -242,6 +242,25 @@
       "date": "2026-03-08"
     },
     "coverage": 100,
+    "test_count": 7,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Marco Vargas",
+    "commit": {
+      "date": "2026-03-08T17:56:46.000Z",
+      "message": "feat: agregar interfaz de usuario básica y compatibilidad con navegador",
+      "url": "https://github.com/MARCOVARGAS29/tennis/commit/HEAD"
+    },
+    "stats": {
+      "total": 57,
+      "additions": 39,
+      "deletions": 18,
+      "date": "2026-03-08"
+    },
+    "coverage": 95.65,
     "test_count": 7,
     "failed_tests": 0,
     "conclusion": "success"

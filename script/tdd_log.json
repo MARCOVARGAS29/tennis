@@ -400,9 +400,39 @@
     "testId": 12
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0687eeee9170350149621ad1a1d9bf96c420adde",
     "commitName": "refactor: extraer lógica a métodos privados para mejorar legibilidad",
     "commitTimestamp": 1772992120415,
     "testId": 12
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 0,
+    "numTotalTests": 7,
+    "timestamp": 1772992342099,
+    "success": true,
+    "testId": 13
+  },
+  {
+    "numPassedTests": 0,
+    "failedTests": 0,
+    "numTotalTests": 0,
+    "timestamp": 1772992353101,
+    "success": false,
+    "testId": 13
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 0,
+    "numTotalTests": 7,
+    "timestamp": 1772992415050,
+    "success": true,
+    "testId": 13
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar interfaz de usuario básica y compatibilidad con navegador",
+    "commitTimestamp": 1772992607678,
+    "testId": 13
   }
 ]

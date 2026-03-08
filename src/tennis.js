@@ -46,4 +46,9 @@ class Tennis {
   player2Scores() { this.player2Points++; }
 }
 
-module.exports = Tennis;
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = Tennis;
+} else {
+  // Solo asignamos a window si estamos en el navegador
+  window.Tennis = Tennis;
+}
