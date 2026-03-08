@@ -152,12 +152,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "9ec400ab2160ac71b558a4ed798ca411ecf8fdb7",
     "author": "Marco Vargas",
     "commit": {
       "date": "2026-03-08T17:20:14.000Z",
       "message": "feat: implementar lógica básica de puntuación para jugador 1",
-      "url": "https://github.com/MARCOVARGAS29/tennis/commit/HEAD"
+      "url": "https://github.com/MARCOVARGAS29/tennis/commit/9ec400ab2160ac71b558a4ed798ca411ecf8fdb7"
     },
     "stats": {
       "total": 114,
@@ -167,6 +167,25 @@
     },
     "coverage": 85.71,
     "test_count": 3,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Marco Vargas",
+    "commit": {
+      "date": "2026-03-08T17:29:18.000Z",
+      "message": "refactor: simplificar lógica de puntuación usando arreglo de mapeo",
+      "url": "https://github.com/MARCOVARGAS29/tennis/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 6,
+      "deletions": 0,
+      "date": "2026-03-08"
+    },
+    "coverage": 100,
+    "test_count": 4,
     "failed_tests": 0,
     "conclusion": "success"
   }

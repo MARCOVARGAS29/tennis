@@ -19,4 +19,10 @@ describe("Tennis Scorer", () => {
     tennis.player1Scores();
     expect(tennis.score()).toEqual("30 - Love");
   });
+  it("debería mostrar 15-15 cuando ambos anotan una vez", () => {
+    let tennis = new Tennis();
+    tennis.player1Scores();
+    tennis.player2Scores();
+    expect(tennis.score()).toEqual("15 - 15");
+  });
 });

@@ -296,9 +296,31 @@
     "testId": 8
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9ec400ab2160ac71b558a4ed798ca411ecf8fdb7",
     "commitName": "feat: implementar lógica básica de puntuación para jugador 1",
     "commitTimestamp": 1772990416152,
     "testId": 8
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 0,
+    "numTotalTests": 3,
+    "timestamp": 1772990506717,
+    "success": true,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 0,
+    "numTotalTests": 4,
+    "timestamp": 1772990529378,
+    "success": true,
+    "testId": 9
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: simplificar lógica de puntuación usando arreglo de mapeo",
+    "commitTimestamp": 1772990959479,
+    "testId": 9
   }
 ]
